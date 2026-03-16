@@ -9,7 +9,7 @@ function App() {
   return (
     <>
 
-    <h2>Country on the go app component</h2>
+    
     <Suspense fallback={<h2>Loding...</h2>}>
 
       <Countries countryPromis={countryPromis}></Countries>
